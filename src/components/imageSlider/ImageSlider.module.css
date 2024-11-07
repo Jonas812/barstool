@@ -1,0 +1,34 @@
+.ImageSlider {
+  position: relative;
+  width: 100%; /* Festgelegte Breite */
+  height: 100%; /* Bild auf die gesamte Höhe des Containers skalieren */
+  overflow: hidden; /* Sicherstellen, dass der Inhalt innerhalb der definierten Größe bleibt */
+}
+
+.ImageSlider img {
+  width: 100%; /* Bild auf die gesamte Breite des Containers skalieren */
+  height: 100%; /* Bild auf die gesamte Höhe des Containers skalieren */
+  object-fit: cover; /* Bild proportional skalieren, um den gesamten Container zu bedecken */
+  display: block; /* Sicherstellen, dass das Bild nicht durch inline-Element-Eigenschaften beeinflusst wird */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  color: balck;
+  font-size: 50px;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.leftArrow {
+  left: 10px;
+}
+
+.rightArrow {
+  right: 10px;
+}

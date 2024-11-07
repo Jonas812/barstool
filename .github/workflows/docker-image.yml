@@ -1,0 +1,51 @@
+name: Deploy to Portainer
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Docker
+        run: |
+          sudo apt update
+          sudo apt install -y docker.io
+          sudo systemctl start docker
+          sudo systemctl enable docker
+
+      - name: Build Docker image
+        run: |
+          docker build -t my-react-app .
+          docker tag my-react-app:latest localhost:5000/my-react-app:latest
+          docker push localhost:5000/my-react-app:latest
+
+      - name: Prepare SSH key
+        run: |
+          echo "${{ secrets.SERVER_SSH_KEY }}" | base64 --decode > /tmp/ssh_key
+          chmod 600 /tmp/ssh_key
+
+      - name: Deploy to Portainer
+        env:
+          PORTAINER_URL: 'https://your-portainer-url.com'  # Replace with your Portainer URL
+          PORTAINER_USERNAME: ${{ secrets.PORTAINER_USERNAME }}
+          PORTAINER_PASSWORD: ${{ secrets.PORTAINER_PASSWORD }}
+          PORTAINER_ENDPOINT_ID: '1'  # Replace with your Portainer endpoint ID
+        run: |
+          ssh -o StrictHostKeyChecking=no -i /tmp/ssh_key ${{ secrets.SERVER_SSH_USER }}@${{ secrets.SERVER_SSH_HOST }} << 'EOF'
+            # Pull the Docker image from your private registry
+            docker pull localhost:5000/my-react-app:latest
+
+            # Stop and remove any existing container
+            docker stop my-react-app || true
+            docker rm my-react-app || true
+
+            # Run the Docker container
+            docker run -d --name my-react-app -p 80:5000 localhost:5000/my-react-app:latest
+          EOF

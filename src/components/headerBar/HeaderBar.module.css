@@ -1,0 +1,48 @@
+.headerBarContainer {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.dropDownsContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.logo {
+  height: 50px;
+}
+
+@media (max-width: 1280px) {
+  .logo {
+    height: 45px;
+  }
+}
+@media (max-width: 1024px) {
+  .logo {
+    height: 35px;
+  }
+
+  .headerBarContainer {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    height: 25px;
+  }
+  .dropDownsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .headerBarContainer {
+    padding: 0 10px;
+  }
+}

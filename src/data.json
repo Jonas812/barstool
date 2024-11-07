@@ -1,0 +1,522 @@
+[
+    {
+        "id": "f4704a82-be11-4616-b5ad-e4bc31e265a3",
+        "name": "the bakery",
+        "type": "Cafe",
+        "address": "Gerberstraße 7",
+        "distance": 2,
+        "latitude": 49.23186707492524,
+        "longitude": 6.996120062423022,
+        "zipcode": 66111,
+        "tel": "0681 95818570",
+        "openhours": {
+            "mon": "09:00 - 18:00",
+            "tue": "09:00 - 18:00",
+            "wen": "09:00 - 18:00",
+            "thu": "09:00 - 18:00",
+            "fri": "09:00 - 18:00",
+            "sat": "09:00 - 18:00",
+            "sun": "09:00 - 18:00"
+        },
+        "imageurls": [ 
+            "https://lh3.googleusercontent.com/p/AF1QipM1WRmTRH18IfgHcsHBlP1KzZoeah9UHxuB7K_K=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipNSiPaCfu__0MkbSzdzON7l00HBKQUcIvTbZJ3b=s680-w680-h510"
+        ],
+        "tags": [
+            "Backwaren"
+        ],
+        "rating": 9,
+        "allRatings": [
+            {
+                "rating": 10,
+                "text": "Exzellente Bäckerei mit frischen Produkten und großartigem Service!"
+            },
+            {
+                "rating": 8,
+                "text": "Gute Auswahl an Backwaren, aber etwas teuer."
+            },
+            {
+                "rating": 9,
+                "text": "Entspannte Atmosphäre und leckere Gebäckstücke."
+            },
+            {
+                "rating": 8,
+                "text": "Guter Ort zum Lernen mit leckerem Kaffee."
+            }
+        ]
+    },
+    {
+        "id": "073e5cfb-e973-4fd0-9bca-d89a607542af",
+        "name": "Café am Schloss",
+        "type": "Cafe",
+        "address": "Schloßplatz 15a",
+        "distance": 1.7,
+        "latitude": 49.23166407858368,
+        "longitude": 6.9961903699868,
+        "zipcode": 66119,
+        "tel": "0681 582621",
+        "openhours": {
+            "mon": "10:00 - 23:00",
+            "tue": "10:00 - 23:00",
+            "wen": "10:00 - 23:00",
+            "thu": "10:00 - 23:00",
+            "fri": "10:00 - 23:00",
+            "sat": "10:00 - 23:00",
+            "sun": "10:00 - 23:00"
+        },
+        "imageurls": [ 
+            "https://lh3.googleusercontent.com/p/AF1QipO4Oci-Qk6iRtHQIMo5emHnDZziDje_c_EclyRR=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipNNfST7NfTL5Fylskw2f3hREnvYVx8Tk2ELqMB8=s680-w680-h510"
+        ],
+        "tags": [
+            "Backwaren",
+            "Cafe"
+        ],
+        "rating": 8.8,
+        "allRatings": [
+            {
+                "rating": 9,
+                "text": "Wunderschöner Ausblick auf das Schloss."
+            },
+            {
+                "rating": 7,
+                "text": "Gutes Café zum Lernen, aber manchmal zu laut."
+            }
+        ]
+    },
+    {
+        "id": "1dfdbbbd-64c4-4a77-beb8-574d6092ed6f",
+        "name": "Cafe & Bar Celona",
+        "type": "Bar",
+        "address": "Berliner Promenade 5",
+        "distance": 1.6,
+        "latitude": 49.23670007636247,
+        "longitude": 6.9919021838881115,
+        "zipcode": 66111,
+        "tel": "0681 93866523",
+        "openhours": {
+            "mon": "08:00 - 00:00",
+            "tue": "08:00 - 00:00",
+            "wen": "08:00 - 00:00",
+            "thu": "08:00 - 00:00",
+            "fri": "08:00 - 02:00",
+            "sat": "08:00 - 02:00",
+            "sun": "08:00 - 00:00"
+        },
+        "imageurls": [ 
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cafe_%26_Bar_Celona%2C_Saarbr%C3%BCcken.jpg/1280px-Cafe_%26_Bar_Celona%2C_Saarbr%C3%BCcken.jpg",
+            "https://lh3.googleusercontent.com/p/AF1QipMg1v76a5zrJ65ca8vvhQkbrzPZ3nb1H2U-4r8V=s680-w680-h510"
+        ],
+        "tags": [
+            "Speisen vor Ort",
+            "Getränke"
+        ],
+        "rating": 7.7,
+        "allRatings": [
+            {
+                "rating": 8,
+                "text": "Große Auswahl an Getränken und Speisen."
+            },
+            {
+                "rating": 7,
+                "text": "Guter Ort zum Lernen, aber abends oft laut."
+            }
+        ]
+    },
+    {
+        "id": "1739002f-cc20-468f-9420-1ae5b98c0468",
+        "name": "Backwerk",
+        "type": "Cafe",
+        "address": "Bahnhofstraße 52",
+        "distance": 2,
+        "latitude": 49.23604439880189,
+        "longitude": 6.993784215197512,
+        "zipcode": 66111,
+        "tel": "0681 76180235",
+        "openhours": {
+            "mon": "06:30 - 19:00",
+            "tue": "06:30 - 19:00",
+            "wen": "06:30 - 19:00",
+            "thu": "06:30 - 19:00",
+            "fri": "06:30 - 19:00",
+            "sat": "08:00 - 19:00",
+            "sun": "09:00 - 13:00"
+        },
+        "imageurls": [ 
+            "https://lh3.googleusercontent.com/p/AF1QipO2YXUiQ7--GlvHXAAL92nmlVy9rptZ9kUUBLIg=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipM9wSTda02XgblOSkzXHAklyX5hcW-wnPDByBCn=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan",
+            "Backwaren",
+            "Getränke"
+        ],
+        "rating": 6.9,
+        "allRatings": [
+            {
+                "rating": 7,
+                "text": "Praktisch für einen schnellen Snack."
+            },
+            {
+                "rating": 6,
+                "text": "Zum Lernen weniger geeignet, da oft voll."
+            }
+        ]
+    },
+    {
+        "id": "7b5b521c-7d89-4c8e-8114-65103a99e674",
+        "name": "Nilles Saarbrooklyn",
+        "type": "Cafe",
+        "address": "Blumenstraße 8",
+        "distance": 2.1,
+        "latitude": 49.237171864642875,
+        "longitude": 6.998475170394129,
+        "zipcode": 66111,
+        "tel": "0157 35533871",
+        "openhours": {
+            "mon": "11:00 - 01:00",
+            "tue": "11:00 - 01:00",
+            "wen": "11:00 - 01:00",
+            "thu": "11:00 - 01:00",
+            "fri": "11:00 - 05:00",
+            "sat": "11:00 - 05:00",
+            "sun": "11:00 - 01:00"
+        },
+        "imageurls": [ 
+            "https://www.saarbruecker-zeitung.de/imgs/03/9/0/0/9/8/7/8/1/tok_4912d290f7023de0e87fa67ba6f24998/w1200_h1200_x1796_y1197_20200907110943_IMG_4704-b79fe22957a850b6.jpg",
+            "https://lh3.googleusercontent.com/p/AF1QipM59xCG9cB8v8r2lcAWlDc8Fg7beqNR_eXojS5y=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan",
+            "Jägermeister"
+        ],
+        "rating": 9.5,
+        "allRatings": [
+            {
+                "rating": 9,
+                "text": "Cooler Ort mit toller Atmosphäre."
+            },
+            {
+                "rating": 8,
+                "text": "Gut zum Lernen tagsüber, nachts eher laut."
+            }
+        ]
+    },
+    {
+        "id": "112d00ce-5102-415b-8b57-1960c92989b4",
+        "name": "Tante Anna",
+        "type": "Cafe",
+        "address": "Türkenstraße 3",
+        "distance": 2.1,
+        "latitude": 49.232569282234785,
+        "longitude": 6.998139455052599,
+        "zipcode": 66111,
+        "tel": "0681 398178",
+        "openhours": {
+            "mon": "12:00 - 01:00",
+            "tue": "12:00 - 01:00",
+            "wen": "12:00 - 01:00",
+            "thu": "12:00 - 01:00",
+            "fri": "12:00 - 03:00",
+            "sat": "10:00 - 03:00",
+            "sun": "12:00 - 01:00"
+        },
+        "imageurls": [ 
+            "https://lh3.googleusercontent.com/p/AF1QipNtLjVeS2PPk5AtLbSkAtWpwytVdHenc_JAV87e=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipOUXgHjhEIJ67rxtN9zwvFM_0JfJn3_C0TEtmAo=s680-w680-h510"
+        ],
+        "tags": [
+            "Getränke"
+        ],
+        "rating": 8.2,
+        "allRatings": [
+            {
+                "rating": 9,
+                "text": "Gemütlicher Ort mit gutem Essen und Getränken."
+            },
+            {
+                "rating": 7,
+                "text": "Tagsüber ruhig zum Arbeiten, abends laut."
+            }
+        ]
+    },
+    {
+        "id": "c9420dff-3ab3-4864-8c12-04866cdfa669",
+        "name": "Stube 8",
+        "type": "Cafe",
+        "address": "Cecilienstraße 8",
+        "distance": 2,
+        "latitude": 49.23607553538826,
+        "longitude": 6.997932839711426,
+        "zipcode": 66111,
+        "tel": "0681 93314647",
+        "openhours": {
+            "mon": "19:00 - 02:00",
+            "tue": "19:00 - 02:00",
+            "wen": "19:00 - 02:00",
+            "thu": "19:00 - 02:00",
+            "fri": "19:00 - 03:00",
+            "sat": "19:00 - 03:00",
+            "sun": ""
+        },
+        "imageurls": [ 
+            "https://lh3.googleusercontent.com/p/AF1QipNNgvB0l0GyIDVP2G-1lmQn5GtKn2T-bgQbBJGT=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipMLmZshcEvquFWFxgVmUONEtpkuIqn8acHlZZol=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan",
+            "Getränke"
+        ],
+        "rating": 8.2,
+        "allRatings": [
+            {
+                "rating": 9,
+                "text": "Gemütlicher Ort mit gutem Essen und Getränken."
+            },
+            {
+                "rating": 7,
+                "text": "Tagsüber ruhig zum Arbeiten, abends laut."
+            }
+        ]
+    },
+    {
+        "id": "d9c2c0a2-9059-41cb-b754-e21f124f4678",
+        "name": "Nauwies - Café Bistro",
+        "type": "Bistro",
+        "address": "Nauwieserstraße 22",
+        "distance": 2.3,
+        "latitude": 49.23528158584619,
+        "longitude": 6.999203939711374,
+        "zipcode": 66111,
+        "tel": "0681 35743",
+        "openhours": {
+            "mon": "10:00 - 00:00",
+            "tue": "10:00 - 00:00",
+            "wen": "10:00 - 00:00",
+            "thu": "10:00 - 00:00",
+            "fri": "10:00 - 01:00",
+            "sat": "10:00 - 01:00",
+            "sun": "10:00 - 00:00"
+        },
+        "imageurls": [ 
+            "https://lh3.googleusercontent.com/p/AF1QipP8D8oUvMEnvaMLqRHsQwcZA8e8iIu09dsQ1EUR=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipN-LNktHxljkYKvbRPEeYBuGOryZsaKTX882wTK=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan",
+            "Cafe",
+            "Getränke",
+            "Backwaren"
+        ],
+        "rating": 7.8,
+        "allRatings": [
+            {
+                "rating": 8,
+                "text": "Nettes Ambiente, aber die Auswahl an Speisen könnte besser sein."
+            },
+            {
+                "rating": 7.5,
+                "text": "Gute Lage, oft sehr voll."
+            }
+        ]
+    },
+    {
+        "id": "7a220e73-6dc9-4886-95e4-348cae49b4e7",
+        "name": "Ubu le Roi",
+        "type": "Cafe",
+        "address": "Cecilienstraße 15",
+        "distance": 2.2,
+        "latitude": 49.236523548487575,
+        "longitude": 6.998513526844948,
+        "zipcode": 66111,
+        "tel": "0681 68666040",
+        "openhours": {
+            "mon": "09:00 - 22:00",
+            "tue": "09:00 - 22:00",
+            "wen": "09:00 - 22:00",
+            "thu": "09:00 - 22:00",
+            "fri": "09:00 - 00:00",
+            "sat": "09:00 - 00:00",
+            "sun": "09:00 - 22:00"
+        },
+        "imageurls": [
+            "https://lh3.googleusercontent.com/p/AF1QipNWD2xJk8qkw_Y7Y7DiYnwOToMdF4cv0mVUBw7A=s680-w680-h510",
+            "https://lh3.googleusercontent.com/p/AF1QipMTDzk4t-kK3hJbpha0OCYDnaRRiz-4eiRlsf62=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan"
+        ],
+        "rating": 8,
+        "allRatings": [
+            {
+                "rating": 8.5,
+                "text": "Sehr gemütlich und gute Auswahl an Speisen und Getränken."
+            },
+            {
+                "rating": 7.5,
+                "text": "Manchmal etwas überfüllt, besonders abends."
+            }
+        ]
+    },
+    {
+        "id": "7463d4c5-f98a-45a9-ae38-58e07e7a30bf",
+        "name": "Schrill-Saarbrücken",
+        "type": "Cafe",
+        "address": "Försterstraße 22",
+        "distance": 2.3,
+        "latitude": 49.23658468196526,
+        "longitude": 6.998661226217417,
+        "zipcode": 66111,
+        "tel": "0681 371910",
+        "openhours": {
+            "mon": "12:00 - 20:00",
+            "tue": "12:00 - 20:00",
+            "wen": "12:00 - 20:00",
+            "thu": "12:00 - 20:00",
+            "fri": "12:00 - 20:00",
+            "sat": "10:00 - 18:00",
+            "sun": "10:00 - 18:00"
+        },
+        "imageurls": [ 
+            "https://www.nauwieser-viertel-saarbruecken.de/bilder/laden/cafe-schrill-jonas-saarbruecken_v1.jpg",
+            "https://lh3.googleusercontent.com/p/AF1QipPmnSv-Pp3hjDVcxY7Ag0A3N6jKMN8Xw6YCebb9=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan",
+            "Warme Speisen",
+            "Getränke"
+        ],
+        "rating": 7.5,
+        "allRatings": [
+            {
+                "rating": 8,
+                "text": "Gemütliches Ambiente, aber die Öffnungszeiten könnten länger sein."
+            },
+            {
+                "rating": 7,
+                "text": "Nettes Personal, jedoch manchmal etwas laut."
+            }
+        ]
+    },
+    {
+        "id": "229d3e0c-ef28-4e10-b23e-83448c6e8faf",
+        "name": "Cafe Especial",
+        "type": "Cafe",
+        "address": "Kronenstraße 1",
+        "distance": 1.8,
+        "latitude": 49.23658468196526,
+        "longitude": 6.998661226217417,
+        "zipcode": 66111,
+        "tel": "0681 3906619",
+        "openhours": {
+            "mon": "11:30 - 00:00",
+            "tue": "11:30 - 00:00",
+            "wen": "11:30 - 00:00",
+            "thu": "11:30 - 00:00",
+            "fri": "11:30 - 01:00",
+            "sat": "11:30 - 01:00",
+            "sun": "12:00 - 00:00"
+        },
+        "imageurls": [  
+            "https://lh5.googleusercontent.com/p/AF1QipMJVv6dClqVhz6__T5_Fuu-Ycr98bKKCAiBEfdc=w426-h240-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipNmnwBmKnPctIdSrk9iVpgTGaa5lr7L1u-mdtQ9=s680-w680-h510"
+        ],
+        "tags": [
+            "Speisen vor Ort",
+            "Getränke",
+            "Cafe",
+            "Backwaren"
+        ],
+        "rating": 8.1,
+        "allRatings": [
+            {
+                "rating": 8.5,
+                "text": "Sehr gute Auswahl an Speisen und Getränken."
+            },
+            {
+                "rating": 7.7,
+                "text": "Gemütliche Atmosphäre, aber manchmal etwas voll."
+            }
+        ]
+    },
+    {
+        "id": "ace0d991-a225-4af1-a9b5-4d9bfcb133b6",
+        "name": "LUUC",
+        "type": "Cafe",
+        "address": "Türkenstraße 17",
+        "distance": 2,
+        "latitude": 49.2331681104397,
+        "longitude": 6.998533239711305,
+        "zipcode": 66111,
+        "tel": "0681 93885265",
+        "openhours": {
+            "mon": "09:30 - 20:30",
+            "tue": "09:30 - 20:30",
+            "wen": "09:30 - 20:30",
+            "thu": "09:30 - 22:00",
+            "fri": "09:30 - 22:00",
+            "sat": "09:30 - 22:00",
+            "sun": "09:30 - 20:30"
+        },
+        "imageurls": [ 
+            "https://lh5.googleusercontent.com/p/AF1QipM_xH9WqdHO1ThCATyFdZKcJBzar1-wO_yyURqZ=w408-h306-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOeIIcatlhk1FqJhWjr4nFEfK64Z_cZzwmGFcGX=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan",
+            "Getränke",
+            "Cafe"
+        ],
+        "rating": 7.9,
+        "allRatings": [
+            {
+                "rating": 8.5,
+                "text": "Nettes Ambiente und freundliches Personal."
+            },
+            {
+                "rating": 7.3,
+                "text": "Preise etwas höher, aber Qualität stimmt."
+            }
+        ]
+    },
+    {
+        "id": "5b5fc5db-5696-4ab5-b376-4a084c128cb1",
+        "name": "Kulturcafé",
+        "type": "Cafe",
+        "address": "Sankt-Johanner-Markt 24",
+        "distance": 6,
+        "latitude": 49.2327151167964,
+        "longitude": 6.996985099229241,
+        "zipcode": 66111,
+        "tel": "0681 3799200",
+        "openhours": {
+            "mon": "08:30 - 00:00",
+            "tue": "08:30 - 00:00",
+            "wen": "08:30 - 00:00",
+            "thu": "08:30 - 00:00",
+            "fri": "08:30 - 00:00",
+            "sat": "08:30 - 00:00",
+            "sun": "09:00 - 00:00"
+        },
+        "imageurls": [
+            "https://lh5.googleusercontent.com/p/AF1QipP3sE_Y_QfQveYZzFAXIMG7Y2Nsju-Nr3z6ybL2=w503-h240-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOr2inaqFvshWMsYntK-PMbHcRmcuBxQcOUC-Hz=s680-w680-h510"
+        ],
+        "tags": [
+            "Wlan",
+            "Speisen vor Ort",
+            "Getränke"
+        ],
+        "rating": 8.3,
+        "allRatings": [
+            {
+                "rating": 9,
+                "text": "Sehr gemütlich und gute Auswahl an Speisen und Getränken."
+            },
+            {
+                "rating": 7.5,  
+                "text": "Nettes Personal, aber manchmal etwas überfüllt."
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+.cardsBox {
+  display: flex;
+  justify-content: center;
+  margin: 0 30px 30px 30px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 30px;
+}
+
+@media (min-width: 1920px) {
+  .cardsGrid {
+    width: 1860px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardsBox {
+    margin: 0 20px;
+  }
+
+  .cardsGrid {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsBox {
+    margin: 0 10px;
+  }
+
+  .cardsGrid {
+    gap: 10px;
+  }
+}
